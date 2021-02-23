@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-      name: micoconfig-test-client
+      name: micoconfig-test-client5
 
 eureka:
  client:
@@ -22,7 +22,7 @@ server:
 spring:
   profiles: beta
   application:
-      name: micoconfig-test-client
+      name: micoconfig-test-client5
 
 eureka:
  client:

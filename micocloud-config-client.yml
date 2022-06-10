@@ -4,7 +4,7 @@ spring:
         - dev
 ---
 server:
-  port: 8202
+  port: 8201
 
 spring:
   profiles: dev
@@ -16,8 +16,8 @@ eureka:
   service-url:
     defaultZone: http://admin:enjoy@localhost:7001/eureka
 info:
-  app.name: micocloud-config-client-dev2
-  company.name: enjoy
+  appname: micocloud-config-client-dev2
+  companyname: enjoy
 ---
 server:
   port: 8102
@@ -32,5 +32,5 @@ eureka:
   service-url:
     defaultZone: http://admin:enjoy@localhost:7001/eureka
 info:
-  app.name: micocloud-config-client-dev
-  company.name: enjoy
+  appname: micocloud-config-client-dev
+  companyname: enjoy

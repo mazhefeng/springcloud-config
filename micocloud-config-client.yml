@@ -16,10 +16,8 @@ eureka:
   service-url:
     defaultZone: http://admin:enjoy@localhost:7001/eureka
 info:
-  app：
-    name: micocloud-config-client-dev2
-  company：
-    name: enjoy
+  app.name: micocloud-config-client-dev2
+  company.name: enjoy
 ---
 server:
   port: 8102
@@ -34,7 +32,5 @@ eureka:
   service-url:
     defaultZone: http://admin:enjoy@localhost:7001/eureka
 info:
-  app：
-    name: micocloud-config-client-dev
-  company：
-    name: enjoy
+  app.name: micocloud-config-client-dev
+  company.name: enjoy
